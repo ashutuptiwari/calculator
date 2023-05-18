@@ -1,0 +1,17 @@
+#btn
+{
+background-color: #FB9EC4;
+color:white;
+width:80px;
+height:80px;
+padding:10px;
+margin:10px;
+border-radius:60%;
+font-size:30px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+}
+#btn:hover
+{
+    background-color: #f9d9e6;
+    color:grey;
+}
