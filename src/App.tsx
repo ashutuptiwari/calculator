@@ -1,4 +1,5 @@
 import Button from "./Components/Button";
+import Screen from "./Components/Screen";
 import { useState, useEffect } from "react";
 import "./App.css";
 
@@ -12,7 +13,7 @@ function App() {
     SetString("");
   };
   useEffect(() => {
-    console.log(nstring); // This will log the updated value of nstring
+    console.log(nstring);
   }, [nstring]);
   const HandleEqualsClick = () => {
     try {
@@ -32,12 +33,10 @@ function App() {
   };
   return (
     <div id="body">
-      <h1>CALCULATOR</h1>
+      <h1> EXPLICIT CALCULATOR</h1>
 
       <div id="container">
-        <div id="screen">
-          <p>{nstring}</p>
-        </div>
+        <Screen nstring={nstring} />
 
         <div id="sub-cont">
           <Button

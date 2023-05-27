@@ -8,6 +8,7 @@ padding:10px;
 margin:10px;
 border-radius:60%;
 font-size:30px;
+border:1px #FB9EC4 solid;
 box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
 }
 #btn:hover
