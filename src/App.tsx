@@ -33,7 +33,7 @@ function App() {
   };
   return (
     <div id="body">
-      <h1> EXPLICIT CALCULATOR</h1>
+      <h1> EXPLICIT CALCULATO</h1>
 
       <div id="container">
         <Screen nstring={nstring} />
