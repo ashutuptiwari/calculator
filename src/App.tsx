@@ -45,7 +45,7 @@ function App() {
   const HandleEqualsClick = () => {
     try {
       let result = eval(nstring);
-      if (result.toString() === "Infinity" || "-Infinity")
+      if (result.toString() === "Infinity" ||result.toString()=== "-Infinity")
         SetString("TERI MAA KI CHU");
       else if (result.toString() === "NaN") SetString("BHAG BHOSDHIKE");
       else SetString(result.toString());
